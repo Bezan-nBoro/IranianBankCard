@@ -1,6 +1,5 @@
 # IranianBankCard
-===============
-Check validation card and get bank name and bank logo
+> Check validation card and get bank name and bank logo
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -10,17 +9,17 @@ Gradle
 ------
 Step 1. Add the JitPack repository to your build file 
 ```
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 Step 2. Add the dependency
 ```
 dependencies {
-	        implementation 'com.github.Bezan-nBoro:IranianBankCard:0.1.0'
+	  implementation 'com.github.Bezan-nBoro:IranianBankCard:0.1.0'
 	}
 ```
 
@@ -29,19 +28,19 @@ Maven
 Step 1. Add the JitPack repository to your build file 
 ```
 <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
 ```
 Step 2. Add the dependency
 ```
 <dependency>
-	    <groupId>com.github.Bezan-nBoro</groupId>
-	    <artifactId>IranianBankCard</artifactId>
-	    <version>Tag</version>
-	</dependency>
+    <groupId>com.github.Bezan-nBoro</groupId>
+    <artifactId>IranianBankCard</artifactId>
+    <version>Tag</version>
+</dependency>
 ```
 Usage
 -----
@@ -74,7 +73,7 @@ private String cardNoFake = "6037697515178958";
         Integer imgLogo = card.BankLogo(bankName,getApplicationContext());
 
         // Set logo on ImageView whit this command
-        //Logo.setImageResource(imgLogo);
+        Logo.setImageResource(imgLogo);
 
         //For textWathcher
         
