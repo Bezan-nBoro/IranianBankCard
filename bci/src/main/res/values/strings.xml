@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Iranian Bank Card</string>
+    <string name="card_not_validate">شماره کارت وارد شده صحیح نمی‌باشد</string>
+    <string name="card_not_support">شماره کارت وارد شده پشتیبانی نمی‌شود</string>
+    <string name="bank_not_support">بانک وارد شده پشتیبانی نمی‌شود</string>
+</resources>

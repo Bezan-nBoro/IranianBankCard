@@ -1,0 +1,2 @@
+include ':app', ':bci'
+rootProject.name='Bank Cards Iranian'
