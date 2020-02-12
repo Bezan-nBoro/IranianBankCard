@@ -17,7 +17,10 @@ public class CardHandler {
 
         banks.put("603799","بانک ملی ایران");
         banksLogo.put("بانک ملی ایران",R.drawable.bank_meli);
-
+       
+        banks.put("636214","بانک آینده");
+        banksLogo.put("بانک آینده",R.drawable.bank_ayandeh);
+       
         banks.put("589210","بانک سپه");
         banksLogo.put("بانک سپه",R.drawable.bank_sepah);
 
