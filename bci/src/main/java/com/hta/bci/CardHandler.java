@@ -50,8 +50,6 @@ public class CardHandler {
         banks.put("627412","بانک اقتصاد نوین");
         banksLogo.put("بانک اقتصاد نوین",R.drawable.bank_en);
 
-        banks.put("505785","بانک پارسیان");
-        banks.put("505785","بانک پارسیان");
         banks.put("639164","بانک پارسیان");
         banks.put("627884","بانک پارسیان");
         banks.put("627353","بانک پارسیان");
