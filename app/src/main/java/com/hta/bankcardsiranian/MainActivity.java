@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        card = new CardHandler();
+        card = new CardHandler(getApplicationContext(),true);
 
 
         // You can check validation card with card.CardValidation("Card Number")
@@ -31,12 +31,12 @@ public class MainActivity extends AppCompatActivity {
 
 
         //For Get Bank Name Or Bank Logo First Get Bank name With CardNo and get Bank logo with Bank name
-        String bankName = card.BankName(cardNo,getApplicationContext());
+        String bankName = card.BankName(cardNo);
         Toast.makeText(getApplicationContext(),"BankName: " + bankName,Toast.LENGTH_SHORT).show();
 
 
         // Get Logo with bank name
-        Integer imgLogo = card.BankLogo(bankName,getApplicationContext());
+        Integer imgLogo = card.BankLogo(bankName);
 
         // Set logo on ImageView whit this command
         //Logo.setImageResource(imgLogo);
