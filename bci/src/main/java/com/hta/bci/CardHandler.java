@@ -83,6 +83,7 @@ public class CardHandler {
         banksLogo.put("بانک ملت",R.drawable.bank_melat);
 
         banks.put("627353","بانک تجارت");
+        banks.put("585983","بانک تجارت");
         banksLogo.put("بانک تجارت",R.drawable.bank_tejart);
 
         banks.put("589463","بانک رفاه");
